@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tilt+Neon&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #FF6B6B, #FFAE70);
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content div {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333;
+    margin: 10px 0;
+    padding: 15px 20px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+thead tr th {
+    padding: 15px 0;
+    text-align: left;
+}
+
+tbody td {
+    border: 1px solid #333;
+    padding: 10px 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bn15 {
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #FF6B6B;
+    border-radius: 20px;
+    background-color: #FF6B6B;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bn15:hover {
+    background-color: #FFAE70;
+    color: #333;
+}
+
+.heading {
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.heading div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
